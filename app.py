@@ -3,7 +3,7 @@ import sys
 
 app = Flask(__name__)
 
-# Mock tracking telemetry stream data
+# Telemetry data representing live school bus routes
 MOCK_BUS_ROUTES = [
     {"route_id": "ROUTE-A1", "driver": "Sarah Jenkins", "status": "In Transit", "capacity": "24/30", "next_stop": "Primary Gate"},
     {"route_id": "ROUTE-B4", "driver": "Michael Chang", "status": "Delayed", "capacity": "18/35", "next_stop": "Oxford Intersection"},
